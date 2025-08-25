@@ -4,6 +4,7 @@
 #include <thread>
 #include <filesystem>
 #include <string>
+#include <variant>
 
 
 class input {
@@ -28,21 +29,24 @@ public : int add(std::string name) {
         }
         std::getline(dataFile, Data);
         dataFile.close();
-        
+		std::variant <int, float, std::string> inputValue;
+		inputValue = Data;
         if (Type == "int") {
-			int value = std::stoi(Data);
-            std::cout << "Integer value: " << value << std::endl;
-        } else if (Type == "float") {
-            float value = std::stoi(Data);
-            std::cout << "Float value: " << value << std::endl;
-        } else if (Type == "string") {
-            std::cout << "String value: " << Data << std::endl;
-			std::this_thread::sleep_for(std::chrono::seconds(5));
-        } else {
-            std::cerr << "Unknown type." << std::endl;
+            value = std::get<int>(inputValue);
+        }
+        else if (Type == "float") {
+            value = std::get<float>(inputValue);
+        }
+        else if (Type == "string") {
+            value = std::get<std::string>(inputValue);
+        }
+        else {
+            std::cerr << "Unsupported type." << std::endl;
             return 1;
-		}
-		
+        }
+        return 0;
+    }
+	   std::variant <int, float, std::string> value;
 
 	}
 
@@ -51,7 +55,7 @@ int main() {
 
     input hello;
     hello.add("hello");
-
+    std::cout << hello.value;
 
 
 

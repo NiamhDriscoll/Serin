@@ -37,9 +37,9 @@ namespace serin
                 return 0;
 
             }
-            else if (type == "bool")
+            else if (type == "float")
             {
-                type = "bool";
+                type = "float";
                 return 0;
             }
             else
