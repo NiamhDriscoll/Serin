@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36310.24 d17.14
+VisualStudioVersion = 17.14.36310.24
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serin", "Serin.csproj", "{D6CE3CB0-07B0-43B6-9D7E-074E37CFA5AC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Serin-Setup", "..\Serin-Setup\Serin-Setup.vdproj", "{83307279-62B9-90A5-DA1E-62E03EB1C254}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Serin-Reader", "..\Serin-Reader\Serin-Reader.vcxproj", "{DC4C0742-2E99-4B65-A994-D02ED07994DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,12 @@ Global
 		{D6CE3CB0-07B0-43B6-9D7E-074E37CFA5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6CE3CB0-07B0-43B6-9D7E-074E37CFA5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6CE3CB0-07B0-43B6-9D7E-074E37CFA5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83307279-62B9-90A5-DA1E-62E03EB1C254}.Debug|Any CPU.ActiveCfg = Debug
+		{83307279-62B9-90A5-DA1E-62E03EB1C254}.Release|Any CPU.ActiveCfg = Release
+		{DC4C0742-2E99-4B65-A994-D02ED07994DB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DC4C0742-2E99-4B65-A994-D02ED07994DB}.Debug|Any CPU.Build.0 = Debug|x64
+		{DC4C0742-2E99-4B65-A994-D02ED07994DB}.Release|Any CPU.ActiveCfg = Release|x64
+		{DC4C0742-2E99-4B65-A994-D02ED07994DB}.Release|Any CPU.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
