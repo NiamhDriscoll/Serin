@@ -13,6 +13,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serin App", "..\Serin-App\S
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Serin Installer", "..\Serin Installer\Serin Installer.vdproj", "{A5B30CFB-8836-CCFA-7975-B7086656CA16}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Serin-Python", "..\Serin-Python\Serin-Python.pyproj", "{EA76F651-9595-46E5-B51D-B526710FD9F6}"
+EndProject
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "Serin Maker", "..\Serin Maker\bin\Debug\net8.0\Serin Maker.exe", "{FB608627-08CF-95DB-F06D-DB9014ACFBE4}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = C:\Users\niamh_8ref0it\source\repos\Serin Maker\bin\Debug\net8.0\Serin Maker.exe
+		RemoteMachine = NIAMH-PC
+		StartingDirectory = C:\Users\niamh_8ref0it\source\repos\Serin Maker\bin\Debug\net8.0
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Serin-Maker", "..\Serin-Maker\Serin-Maker.vcxproj", "{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +98,30 @@ Global
 		{A5B30CFB-8836-CCFA-7975-B7086656CA16}.Release|ARM64.Build.0 = Release
 		{A5B30CFB-8836-CCFA-7975-B7086656CA16}.Release|x64.ActiveCfg = Release
 		{A5B30CFB-8836-CCFA-7975-B7086656CA16}.Release|x64.Build.0 = Release
+		{EA76F651-9595-46E5-B51D-B526710FD9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA76F651-9595-46E5-B51D-B526710FD9F6}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{EA76F651-9595-46E5-B51D-B526710FD9F6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA76F651-9595-46E5-B51D-B526710FD9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA76F651-9595-46E5-B51D-B526710FD9F6}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{EA76F651-9595-46E5-B51D-B526710FD9F6}.Release|x64.ActiveCfg = Release|Any CPU
+		{FB608627-08CF-95DB-F06D-DB9014ACFBE4}.Debug|Any CPU.ActiveCfg = Release|x64
+		{FB608627-08CF-95DB-F06D-DB9014ACFBE4}.Debug|ARM64.ActiveCfg = Release|x64
+		{FB608627-08CF-95DB-F06D-DB9014ACFBE4}.Debug|x64.ActiveCfg = Release|x64
+		{FB608627-08CF-95DB-F06D-DB9014ACFBE4}.Release|Any CPU.ActiveCfg = Release|x64
+		{FB608627-08CF-95DB-F06D-DB9014ACFBE4}.Release|ARM64.ActiveCfg = Release|x64
+		{FB608627-08CF-95DB-F06D-DB9014ACFBE4}.Release|x64.ActiveCfg = Release|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Debug|Any CPU.Build.0 = Debug|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Debug|ARM64.ActiveCfg = Debug|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Debug|ARM64.Build.0 = Debug|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Debug|x64.ActiveCfg = Debug|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Debug|x64.Build.0 = Debug|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Release|Any CPU.ActiveCfg = Release|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Release|Any CPU.Build.0 = Release|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Release|ARM64.ActiveCfg = Release|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Release|ARM64.Build.0 = Release|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Release|x64.ActiveCfg = Release|x64
+		{04426425-AD3C-426E-B2AA-09D5AE0EFB7D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

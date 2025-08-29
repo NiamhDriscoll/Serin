@@ -72,4 +72,34 @@ namespace serin
 
 
     }
+    public class Reader
+    {
+        public string type;
+        public string target1 = "data.txt";
+        public string target2 = "type.txt";
+        public string data;
+        public void Read()
+        {
+            type = File.ReadAllText(target2);
+            data = File.ReadAllText(target1);
+            if (type == "string")
+            {
+                string value = data;
+            }
+            else if (type == "int")
+            {
+                int value = int.Parse(data);
+                
+            }
+            else if (type == "float")
+            {
+                float value = float.Parse(data);
+                
+            }
+            else
+            {
+                Console.WriteLine("Unknown type.");
+            }
+        }
+    }
 }
